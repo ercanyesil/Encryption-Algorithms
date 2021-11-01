@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="sezarRot13.exe" version="1.0.0.3" publicKeyToken="2f38c7b1678a819d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="sezarRot13" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="sezarRot13.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sezarRot13.exe" size="18400">
+      <assemblyIdentity name="sezarRot13" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KghttqtVNOSD/BWoUi5hAaEe19DBbPEhVJB6zLzbNcs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="sezarRot13.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-QQMM5IC\umtas" issuerKeyHash="9d87430646d5a84a54207141549f96e2a73fdc86" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bbuNWWwAkShv/a/aVKpzLXWl8FZtS0j474737l+ma68=</DigestValue></Reference></SignedInfo><SignatureValue>XzJ9GrUn9ydfwa710kXYJW0ziMbnD6N2rOJ4rakXDs8nXGoYJ/9HPVyLwuvEWESv3KQbwprLojjwSJ96kas9kHiCvIe6j6mJ7XMfROqAR+q+F6sHsMWTNeNC9+xYg+S88biCPFCc+ztACQxEZYE615ud+jckuXVnmIasHtOlZLs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uUSGS2qNId3F24+htQJlM49rKfTrHuFpGjpcxEFzGNvxpfUC4LpP0LR+OlqBAWyMBXzI08Kc59qgQKZn+hPLYwNiHwl6elfUf8C4nnlStVkLFSQfyy0YmA1Vnj65QOj8KLHXuycB/UVUlPpDaf4kbaRu1d+6j+TZP1F9bkWl370=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="af6ba65feef78eeff8484b6d56f0a5752d73aa54daaffd6f2891006c598dbb6d" Description="" Url=""><as:assemblyIdentity name="sezarRot13.exe" version="1.0.0.3" publicKeyToken="2f38c7b1678a819d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QQMM5IC\umtas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qbYkPITLXa7YfIK7ydcyomZiYLk3wckUSh8HYlGxRR8=</DigestValue></Reference></SignedInfo><SignatureValue>WFJf2dZtkf3Z5z/s3tvN3L7vwwg5tUXLb1DXWOypP+PEt04XZfBZPfJB3Rvi0JGk78pZ3rvFB3RykOpd2/gV4PaHkeReugTRBqKmxdQ+0KAp/sbgRrdifbhDN+Lc6QGl5pMgEAQ29FRexLqU6IHmexzEiCfGBLJo2iFgcDK7ne4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uUSGS2qNId3F24+htQJlM49rKfTrHuFpGjpcxEFzGNvxpfUC4LpP0LR+OlqBAWyMBXzI08Kc59qgQKZn+hPLYwNiHwl6elfUf8C4nnlStVkLFSQfyy0YmA1Vnj65QOj8KLHXuycB/UVUlPpDaf4kbaRu1d+6j+TZP1F9bkWl370=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQUqkB3/p6daNC2hJdmHeMYzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEAUQBNAE0ANQBJAEMAXAB1AG0AdABhAHMwHhcNMjExMDI3MjEzMTI0WhcNMjIxMDI4MDMzMTI0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEAUQBNAE0ANQBJAEMAXAB1AG0AdABhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALlEhktqjSHdxduPobUCZTOPayn06x7haRo6XMRBcxjb8aX1AuC6T9C0fjpagQFsjAV8yNPCnOfaoECmZ/oTy2MDYh8JenpX1H/AuJ55UrVZCxUkH8stGJgNVZ4+uUDo/Cix17snAf1FVJT6Q2n+JG2kbtXfuo/k2T9RfW5Fpd+9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAorr7KuaM24TRnJBtAxFc7r7nDeE85BwOs7TmPiaw6QuCarvRVvVn8ArmY81UkbvcbWHbiCz0eYhrJNc3BNoRJcYo6PcozKDZbg4MP7dAt9H4RRpqlP/dB6p0xLNxmQvAeoCmVThsMaSazdS7Y4rkT2sQ04AnzrZs1CZ6OzdbfL0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
